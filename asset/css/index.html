@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>My Profile</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+        <script type="text/javascript" src="assets/js/jquery.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    </head>
+    <style>
+    body {
+        /*background: #e2e2e2;*/
+        background: #EEEEEE;
+    }
+    
+    .profile {
+        /*background: #e2e2e2;*/
+        margin-bottom: 20px;
+    }
+    
+    .profile-top {
+        min-height: 200px;
+        /*background: #999;*/
+        background: #337AB7;
+    }
+    
+    .profile-image {
+        margin-top: -100px;
+        height: 200px;
+        width: 200px;
+        border-radius: 100px;
+        border: 8px solid #eee;
+    }
+    
+    .profile-body {
+        padding: 20px;
+        text-align: center;
+        color: #666;
+    }
+    </style>
+
+    <body>
+        <div class="profile">
+            <div class="profile-top"></div>
+            <div class="text-center">
+                <img src="assets/images/david.jpg" class="profile-image">
+            </div>
+            <div class="profile-body">
+                <h3>David Inyang-Etoh 
+                                <br>
+                                <small>Full Stack Web Developer</small>
+                            </h3>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="text-center">
+                        <h1 class="display-3">Hello, world!</h1>
+                        <a class="btn btn-primary btn-lg" href="about.html" role="button"> About Me</a>
+                        <button type="button" class="btn btn-warning btn-lg" onclick="sayHi()">Say Hi!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+    function sayHi() {
+        alert("Hi! How are u doing");
+
+
+    }
+    </script>
+
+</html>
