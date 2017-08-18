@@ -1,0 +1,24 @@
+
+    body{
+         font-family: 'Lato', sans-serif;
+         background:  #2753C2;
+         color: #FFFFFF;
+    }
+    
+    .navbar-default{
+         font-family: 'Lato', sans-serif;
+        background: #2753C2 !important;
+        border-color: #2753C2;
+         
+
+    }
+     .navbar-nav>li>a{
+    color: #FFFFFF !important;
+     }
+    .text-color{
+        color: #FFFFFF;
+    }
+    .body-text{
+    margin-top: 130px;
+
+}
